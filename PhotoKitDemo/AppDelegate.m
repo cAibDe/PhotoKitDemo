@@ -2,12 +2,12 @@
 //  AppDelegate.m
 //  PhotoKitDemo
 //
-//  Created by 张鹏 on 2017/6/12.
-//  Copyright © 2017年 张鹏. All rights reserved.
+//  Created by c4ibD3 on 2017/6/12.
+//  Copyright © 2017年 c4ibD3. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    ViewController *v1 = [[ViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:v1];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

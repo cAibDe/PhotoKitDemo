@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E8281E81EF0D5D5002965AF /* UIViewController+NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8281E71EF0D5D5002965AF /* UIViewController+NavigationBar.m */; };
+		6E8281EE1EF0D80C002965AF /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8281ED1EF0D80C002965AF /* UIButton+Block.m */; };
+		6E8281F21EF214EB002965AF /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8281F11EF214EB002965AF /* AlbumTableViewCell.m */; };
+		6E8466D41EF22C0400CF744A /* MediaBrowseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8466D31EF22C0400CF744A /* MediaBrowseCollectionViewController.m */; };
+		6E8466D71EF2426600CF744A /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8466D61EF2426600CF744A /* PhotoCollectionViewCell.m */; };
+		6E8466DA1EF256AE00CF744A /* ShowVIdeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8466D91EF256AE00CF744A /* ShowVIdeoViewController.m */; };
+		6E8466DE1EF256DA00CF744A /* SLVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8466DD1EF256DA00CF744A /* SLVideoView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6E8466E11EF257C300CF744A /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8466E01EF257C300CF744A /* ImageViewController.m */; };
+		6E8466E41EF257E700CF744A /* LivePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8466E31EF257E700CF744A /* LivePhotoViewController.m */; };
 		6EF1374D1EEE24F5005E26AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1374C1EEE24F5005E26AE /* main.m */; };
 		6EF137501EEE24F5005E26AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1374F1EEE24F5005E26AE /* AppDelegate.m */; };
-		6EF137531EEE24F5005E26AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF137521EEE24F5005E26AE /* ViewController.m */; };
 		6EF137561EEE24F5005E26AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF137541EEE24F5005E26AE /* Main.storyboard */; };
 		6EF137581EEE24F5005E26AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF137571EEE24F5005E26AE /* Assets.xcassets */; };
 		6EF1375B1EEE24F5005E26AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF137591EEE24F5005E26AE /* LaunchScreen.storyboard */; };
 		6EF137661EEE24F5005E26AE /* PhotoKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF137651EEE24F5005E26AE /* PhotoKitDemoTests.m */; };
 		6EF137711EEE24F5005E26AE /* PhotoKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF137701EEE24F5005E26AE /* PhotoKitDemoUITests.m */; };
+		6EF137811EEE2854005E26AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF137801EEE2854005E26AE /* ViewController.m */; };
+		6EF137841EEE28F1005E26AE /* AlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF137831EEE28F1005E26AE /* AlbumViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +45,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E8281E61EF0D5D5002965AF /* UIViewController+NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBar.h"; sourceTree = "<group>"; };
+		6E8281E71EF0D5D5002965AF /* UIViewController+NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBar.m"; sourceTree = "<group>"; };
+		6E8281EC1EF0D80C002965AF /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		6E8281ED1EF0D80C002965AF /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		6E8281F01EF214EB002965AF /* AlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewCell.h; sourceTree = "<group>"; };
+		6E8281F11EF214EB002965AF /* AlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewCell.m; sourceTree = "<group>"; };
+		6E8466D21EF22C0400CF744A /* MediaBrowseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaBrowseCollectionViewController.h; sourceTree = "<group>"; };
+		6E8466D31EF22C0400CF744A /* MediaBrowseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaBrowseCollectionViewController.m; sourceTree = "<group>"; };
+		6E8466D51EF2426600CF744A /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		6E8466D61EF2426600CF744A /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		6E8466D81EF256AE00CF744A /* ShowVIdeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowVIdeoViewController.h; sourceTree = "<group>"; };
+		6E8466D91EF256AE00CF744A /* ShowVIdeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowVIdeoViewController.m; sourceTree = "<group>"; };
+		6E8466DC1EF256DA00CF744A /* SLVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLVideoView.h; sourceTree = "<group>"; };
+		6E8466DD1EF256DA00CF744A /* SLVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLVideoView.m; sourceTree = "<group>"; };
+		6E8466DF1EF257C300CF744A /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		6E8466E01EF257C300CF744A /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		6E8466E21EF257E700CF744A /* LivePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivePhotoViewController.h; sourceTree = "<group>"; };
+		6E8466E31EF257E700CF744A /* LivePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivePhotoViewController.m; sourceTree = "<group>"; };
 		6EF137481EEE24F5005E26AE /* PhotoKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF1374C1EEE24F5005E26AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EF1374E1EEE24F5005E26AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6EF1374F1EEE24F5005E26AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6EF137511EEE24F5005E26AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6EF137521EEE24F5005E26AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6EF137551EEE24F5005E26AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6EF137571EEE24F5005E26AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EF1375A1EEE24F5005E26AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +77,10 @@
 		6EF1376C1EEE24F5005E26AE /* PhotoKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF137701EEE24F5005E26AE /* PhotoKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoKitDemoUITests.m; sourceTree = "<group>"; };
 		6EF137721EEE24F5005E26AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF1377F1EEE2854005E26AE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EF137801EEE2854005E26AE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EF137821EEE28F1005E26AE /* AlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumViewController.h; sourceTree = "<group>"; };
+		6EF137831EEE28F1005E26AE /* AlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +108,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E8281E21EF0CCBB002965AF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6E8281E61EF0D5D5002965AF /* UIViewController+NavigationBar.h */,
+				6E8281E71EF0D5D5002965AF /* UIViewController+NavigationBar.m */,
+				6E8281EC1EF0D80C002965AF /* UIButton+Block.h */,
+				6E8281ED1EF0D80C002965AF /* UIButton+Block.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6E8281EF1EF214B5002965AF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6E8281F01EF214EB002965AF /* AlbumTableViewCell.h */,
+				6E8281F11EF214EB002965AF /* AlbumTableViewCell.m */,
+				6E8466D51EF2426600CF744A /* PhotoCollectionViewCell.h */,
+				6E8466D61EF2426600CF744A /* PhotoCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		6E8466DB1EF256D400CF744A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E8466DC1EF256DA00CF744A /* SLVideoView.h */,
+				6E8466DD1EF256DA00CF744A /* SLVideoView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6EF1373F1EEE24F5005E26AE = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +164,10 @@
 			children = (
 				6EF1374E1EEE24F5005E26AE /* AppDelegate.h */,
 				6EF1374F1EEE24F5005E26AE /* AppDelegate.m */,
-				6EF137511EEE24F5005E26AE /* ViewController.h */,
-				6EF137521EEE24F5005E26AE /* ViewController.m */,
+				6EF1377E1EEE2854005E26AE /* ViewController */,
+				6E8466DB1EF256D400CF744A /* View */,
+				6E8281EF1EF214B5002965AF /* Cell */,
+				6E8281E21EF0CCBB002965AF /* Category */,
 				6EF137541EEE24F5005E26AE /* Main.storyboard */,
 				6EF137571EEE24F5005E26AE /* Assets.xcassets */,
 				6EF137591EEE24F5005E26AE /* LaunchScreen.storyboard */,
@@ -138,6 +201,25 @@
 				6EF137721EEE24F5005E26AE /* Info.plist */,
 			);
 			path = PhotoKitDemoUITests;
+			sourceTree = "<group>";
+		};
+		6EF1377E1EEE2854005E26AE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6EF1377F1EEE2854005E26AE /* ViewController.h */,
+				6EF137801EEE2854005E26AE /* ViewController.m */,
+				6EF137821EEE28F1005E26AE /* AlbumViewController.h */,
+				6EF137831EEE28F1005E26AE /* AlbumViewController.m */,
+				6E8466D21EF22C0400CF744A /* MediaBrowseCollectionViewController.h */,
+				6E8466D31EF22C0400CF744A /* MediaBrowseCollectionViewController.m */,
+				6E8466D81EF256AE00CF744A /* ShowVIdeoViewController.h */,
+				6E8466D91EF256AE00CF744A /* ShowVIdeoViewController.m */,
+				6E8466DF1EF257C300CF744A /* ImageViewController.h */,
+				6E8466E01EF257C300CF744A /* ImageViewController.m */,
+				6E8466E21EF257E700CF744A /* LivePhotoViewController.h */,
+				6E8466E31EF257E700CF744A /* LivePhotoViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,18 +289,18 @@
 				TargetAttributes = {
 					6EF137471EEE24F5005E26AE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = K2WT69M66J;
+						DevelopmentTeam = 3Q344U5G74;
 						ProvisioningStyle = Automatic;
 					};
 					6EF137601EEE24F5005E26AE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = K2WT69M66J;
+						DevelopmentTeam = 3Q344U5G74;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6EF137471EEE24F5005E26AE;
 					};
 					6EF1376B1EEE24F5005E26AE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = K2WT69M66J;
+						DevelopmentTeam = 3Q344U5G74;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 6EF137471EEE24F5005E26AE;
 					};
@@ -276,9 +358,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EF137531EEE24F5005E26AE /* ViewController.m in Sources */,
+				6EF137811EEE2854005E26AE /* ViewController.m in Sources */,
+				6E8466D71EF2426600CF744A /* PhotoCollectionViewCell.m in Sources */,
 				6EF137501EEE24F5005E26AE /* AppDelegate.m in Sources */,
+				6EF137841EEE28F1005E26AE /* AlbumViewController.m in Sources */,
+				6E8281EE1EF0D80C002965AF /* UIButton+Block.m in Sources */,
+				6E8466DE1EF256DA00CF744A /* SLVideoView.m in Sources */,
+				6E8466E11EF257C300CF744A /* ImageViewController.m in Sources */,
+				6E8281F21EF214EB002965AF /* AlbumTableViewCell.m in Sources */,
+				6E8466D41EF22C0400CF744A /* MediaBrowseCollectionViewController.m in Sources */,
+				6E8466E41EF257E700CF744A /* LivePhotoViewController.m in Sources */,
 				6EF1374D1EEE24F5005E26AE /* main.m in Sources */,
+				6E8281E81EF0D5D5002965AF /* UIViewController+NavigationBar.m in Sources */,
+				6E8466DA1EF256AE00CF744A /* ShowVIdeoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +521,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K2WT69M66J;
+				DEVELOPMENT_TEAM = 3Q344U5G74;
 				INFOPLIST_FILE = PhotoKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.C4ibD3.PhotoKitDemo;
@@ -441,7 +533,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K2WT69M66J;
+				DEVELOPMENT_TEAM = 3Q344U5G74;
 				INFOPLIST_FILE = PhotoKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.C4ibD3.PhotoKitDemo;
@@ -453,7 +545,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = K2WT69M66J;
+				DEVELOPMENT_TEAM = 3Q344U5G74;
 				INFOPLIST_FILE = PhotoKitDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.C4ibD3.PhotoKitDemoTests;
@@ -466,7 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = K2WT69M66J;
+				DEVELOPMENT_TEAM = 3Q344U5G74;
 				INFOPLIST_FILE = PhotoKitDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.C4ibD3.PhotoKitDemoTests;
@@ -478,7 +570,7 @@
 		6EF1377C1EEE24F5005E26AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = K2WT69M66J;
+				DEVELOPMENT_TEAM = 3Q344U5G74;
 				INFOPLIST_FILE = PhotoKitDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.C4ibD3.PhotoKitDemoUITests;
@@ -490,7 +582,7 @@
 		6EF1377D1EEE24F5005E26AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = K2WT69M66J;
+				DEVELOPMENT_TEAM = 3Q344U5G74;
 				INFOPLIST_FILE = PhotoKitDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.C4ibD3.PhotoKitDemoUITests;
@@ -518,6 +610,7 @@
 				6EF137771EEE24F5005E26AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EF137781EEE24F5005E26AE /* Build configuration list for PBXNativeTarget "PhotoKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +619,7 @@
 				6EF1377A1EEE24F5005E26AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EF1377B1EEE24F5005E26AE /* Build configuration list for PBXNativeTarget "PhotoKitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +628,7 @@
 				6EF1377D1EEE24F5005E26AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  PushViewController.h
 //  PhotoKitDemo
 //
 //  Created by c4ibD3 on 2017/6/12.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface AlbumViewController : UIViewController
 
 @end
-
