@@ -169,7 +169,16 @@ typedef NS_OPTIONS(NSUInteger, PHAssetMediaSubtype) {
 首先LivePhoto应该是属于`PHAssetMediaTypeImage `的，然后是属于`PHAssetMediaSubtypePhotoLive `的。
 正常的理解就是这样对不对，但是在我的LivePhoto的相册中有的竟然会识别不出来。我去了本地媒体相册看了一下识别不出来的那些照片的类型，左上角竟然有两个标识，一个是`Live`，另一个是`HDR`。
 后来我就是把所有的类型都打印了一下，我发现这样的相片不属于任何一个类型。
-如果有大神知道怎么解决也可以告诉小弟我。
+#####解决4：
+我在控制器打了一下看了一下子媒体类型的值，LivePhoto的类型值是8，既是LivePhoto又是HDR的类型值是10。我之前的媒体类型判断是：
+```objc
+asset.mediaSubtypes == PHAssetMediaSubtypePhotoLive
+```
+而改成：
+```objc
+asset.mediaSubtypes >= PHAssetMediaSubtypePhotoLive
+```
+就可以了
 ***
 下面来说我们怎么显示Live Photo：
 ```objc
