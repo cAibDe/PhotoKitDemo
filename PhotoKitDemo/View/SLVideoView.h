@@ -43,7 +43,7 @@ typedef NS_ENUM(NSInteger, LSVideoPlayerPlaybackState) {
 
 - (id)initWithFrame:(CGRect)frame contentUrl:(NSString *)url ;
 - (id)initWithFrame:(CGRect)frame avasset:(AVAsset*)asset;
-
+- (id)initWithFrame:(CGRect)frame playerItem:(AVPlayerItem *)playerItem;
 - (void)speed:(CMTime)speedValue;
 - (void)play;
 - (void)pause;

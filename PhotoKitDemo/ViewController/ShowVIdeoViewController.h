@@ -20,6 +20,8 @@
 
 @property (nonatomic, strong) AVAsset *asset;
 
+@property (nonatomic, strong) AVPlayerItem *playerItem;
+
 @property (nonatomic, copy) NSString *fileName;
 
 @end

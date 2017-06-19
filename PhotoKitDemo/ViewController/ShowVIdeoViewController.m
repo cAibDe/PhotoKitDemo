@@ -30,7 +30,9 @@
 -(void)creatVideoView{
 //    self.videoView = [[SLVideoView alloc]initWithFrame:CGRectMake(5.f, 60.f, self.view.bounds.size.width - 20.f,300.f) contentUrl:[self.videoDic objectForKey:@"path"]];
 //    
-    self.videoView = [[SLVideoView alloc]initWithFrame:CGRectMake(5.f, 60.f, self.view.bounds.size.width - 20.f,300.f) avasset:self.asset];
+//    self.videoView = [[SLVideoView alloc]initWithFrame:CGRectMake(5.f, 60.f, self.view.bounds.size.width - 20.f,300.f) avasset:self.asset];
+    
+    self.videoView = [[SLVideoView alloc]initWithFrame:CGRectMake(5.f, 60.f, self.view.bounds.size.width - 20.f,300.f) playerItem:self.playerItem];
     
     self.videoView.delegate = self;
     

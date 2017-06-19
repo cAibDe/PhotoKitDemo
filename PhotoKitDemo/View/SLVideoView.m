@@ -48,6 +48,13 @@ void *LSPlayer =&LSPlayer;
     }
     return self;
 }
+- (id)initWithFrame:(CGRect)frame playerItem:(AVPlayerItem *)playerItem{
+    self =[super initWithFrame:frame];
+    if (self) {
+        [self _setPlayerItem:playerItem];
+    }
+    return self;
+}
 #pragma mark ---Public Func
 - (void)play
 {
@@ -127,7 +134,22 @@ void *LSPlayer =&LSPlayer;
     
     [self.layer addSublayer:playerLayer];
 }
+- (void)_setPlayerItem:(AVPlayerItem *)playerItem{
 
+    _player =[AVPlayer playerWithPlayerItem:playerItem];
+    AVPlayerLayer * playerLayer =[self _setVideoModel:_player];
+    playerLayer.frame=self.frame;
+    _videoModel=AVLayerVideoGravityResizeAspectFill;
+    [_player addObserver:self forKeyPath:@"rate" options:NSKeyValueObservingOptionNew context:LSPlayer];
+    
+    [playerItem addObserver:self forKeyPath:@"status" options:NSKeyValueObservingOptionNew context:nil];
+    
+    [playerItem addObserver:self forKeyPath:@"loadedTimeRanges"options:NSKeyValueObservingOptionNew context:nil];
+    
+    [[NSNotificationCenter  defaultCenter]addObserver:self  selector:@selector(moviePlayDidEnd:) name:AVPlayerItemDidPlayToEndTimeNotification object:playerItem];
+    
+    [self.layer addSublayer:playerLayer];
+}
 - (AVPlayerLayer*)_setVideoModel:(AVPlayer *)player
 {
     AVPlayerLayer *playerLayer =[AVPlayerLayer playerLayerWithPlayer:player];

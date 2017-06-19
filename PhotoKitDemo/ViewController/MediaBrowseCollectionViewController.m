@@ -68,15 +68,21 @@
         phVideoRequestOptions.version = PHImageRequestOptionsVersionCurrent;
         phVideoRequestOptions.deliveryMode = PHVideoRequestOptionsDeliveryModeAutomatic;
         PHImageManager *manager = [PHImageManager defaultManager];
-        [manager requestAVAssetForVideo:asset options:phVideoRequestOptions resultHandler:^(AVAsset * _Nullable asset, AVAudioMix * _Nullable audioMix, NSDictionary * _Nullable info) {
+        [manager requestPlayerItemForVideo:asset options:phVideoRequestOptions resultHandler:^(AVPlayerItem * _Nullable playerItem, NSDictionary * _Nullable info) {
             ShowVIdeoViewController *shouwVideoVC = [[ShowVIdeoViewController alloc]init];
-            shouwVideoVC.asset = asset;
+            shouwVideoVC.playerItem = playerItem;
             shouwVideoVC.fileName =[[info objectForKey:@"PHImageFileSandboxExtensionTokenKey"] lastPathComponent];
             [weakSelf.navigationController pushViewController:shouwVideoVC animated:YES];
         }];
+//        [manager requestAVAssetForVideo:asset options:phVideoRequestOptions resultHandler:^(AVAsset * _Nullable asset, AVAudioMix * _Nullable audioMix, NSDictionary * _Nullable info) {
+//            ShowVIdeoViewController *shouwVideoVC = [[ShowVIdeoViewController alloc]init];
+//            shouwVideoVC.asset = asset;
+//            shouwVideoVC.fileName =[[info objectForKey:@"PHImageFileSandboxExtensionTokenKey"] lastPathComponent];
+//            [weakSelf.navigationController pushViewController:shouwVideoVC animated:YES];
+//        }];
     }else if (asset.mediaType == PHAssetMediaTypeImage){
         //照片中细分是不是LivePhoto
-        if (asset.mediaSubtypes == PHAssetMediaSubtypePhotoLive) {
+        if (asset.mediaSubtypes >= PHAssetMediaSubtypePhotoLive) {
             LivePhotoViewController *livePhotoVC = [[LivePhotoViewController alloc]init];
             livePhotoVC.asset = asset;
             [self.navigationController pushViewController:livePhotoVC animated:YES];

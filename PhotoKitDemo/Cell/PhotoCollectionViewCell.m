@@ -43,7 +43,7 @@
     }else if (asset.mediaType == PHAssetMediaTypeImage){
         self.durationLabel.hidden = YES;
         self.livePhotoImageView.hidden = YES;
-        if (asset.mediaSubtypes == PHAssetMediaSubtypePhotoLive) {
+        if (asset.mediaSubtypes >= PHAssetMediaSubtypePhotoLive) {
             self.livePhotoImageView.hidden = NO;
             NSLog(@"PHAssetMediaSubtypePhotoLive");
         }else if (asset.mediaSubtypes == PHAssetMediaSubtypePhotoPanorama){
