@@ -210,4 +210,4 @@ error reading settings archive file: <ISRootSettings: /var/mobile/Containers/Dat
 不知道是为什么？
 
 
-希望各位要是知道如何解决弯路3，4，5的 请告知小弟
+希望各位要是知道如何解决弯路3，5的 请告知小弟
